@@ -1,0 +1,43 @@
+
+.LeftBanner {
+  background-color: #ffffff;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 400px;
+  max-width: 400px;
+  color: black;
+  padding-bottom: 100px;
+}
+
+.LeftBanner .user {
+  background-color: #acd1f536;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 0 20px 20px 20px;
+  border-bottom: 2px solid #D9D9D980;
+}
+
+.LeftBanner .user .userData {
+  align-items: center;
+  gap: 10px;
+  padding-top: 50px;
+}
+
+.LeftBanner .user .avatar img,
+.LeftBanner .user .userData .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.LeftBanner .welcomeCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 20px 15px 50px 15px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.active {
+  animation: spin-slow 0.8s ease-in-out;
+  border: 2px solid rgba(30, 30, 228, 0.304);
+  border-radius: 50%;
+}
+
+.text-color{
+  color : #27104E;
+}
+
+.main-color{
+  background-color: #F3F5F9;
+}
