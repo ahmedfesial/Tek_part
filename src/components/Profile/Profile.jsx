@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePhoto from "../../assets/photos/UserPhoto.jpg";
+import ProfilePhoto from "../../assets/photos/Profile.jpg";
 
 export default function Profile() {
   return (
@@ -18,12 +18,12 @@ export default function Profile() {
 
         {/* Name */}
         <h1 className="text-color text-center mt-1 text-xl sm:text-2xl">
-          م/ريم مصطفى
+         Ahmed Faisal
         </h1>
 
         {/* career */}
         <h2 className="text-center mt-1 text-gray-400 text-sm sm:text-base">
-          UI/UX Designer
+          Front-End Developer
         </h2>
 
         {/* Cards */}

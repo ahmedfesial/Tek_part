@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePhoto from "../../assets/photos/UserPhoto.jpg";
+import ProfilePhoto from "../../assets/photos/Profile.jpg";
 
 export default function Settings() {
   return (
@@ -23,12 +23,12 @@ export default function Settings() {
 
           {/* Name */}
           <h1 className="text-color text-center mt-4 text-xl md:text-2xl">
-            م/ريم مصطفى
+            Ahmed Faisal
           </h1>
 
           {/* career */}
           <h2 className="text-center mt-1 text-gray-400 text-sm md:text-base">
-            UI/UX Designer
+            Front-End Developer
           </h2>
 
           {/* Email */}
@@ -38,7 +38,7 @@ export default function Settings() {
             </h1>
             <input
               type="email"
-              placeholder="Reemmostafa@icloud.com"
+              placeholder="ahmedfesial150@gmail.com"
               className="bg-white w-full p-3 rounded-2xl hover:shadow-2xl duration-300"
             />
           </div>

@@ -2,7 +2,7 @@
 import { FaChartPie } from "react-icons/fa";
 import { MdChecklist } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
-import { FiSettings } from "react-icons/fi";
+import { FiLogIn, FiSettings } from "react-icons/fi";
 import TEKPART from "../../assets/photos/Logo.png";
 import { Link, NavLink } from "react-router-dom";
 
@@ -42,6 +42,11 @@ const SideBar = () => {
           {/*Settings Icon*/}
           <NavLink title="Settings" to="/Settings" className="w-[45px] h-[45px] flex justify-center items-center bg-blue-100 rounded-full transition-transform duration-200 hover:scale-110">
             <FiSettings className="text-blue-600 w-5 h-5" />
+          </NavLink>
+
+          {/* Login & register */}
+          <NavLink title="Login" to="/Login" className="w-[45px] h-[45px] flex justify-center items-center bg-blue-100 rounded-full transition-transform duration-200 hover:scale-110">
+            <FiLogIn className="text-blue-600 w-5 h-5" />
           </NavLink>
       </div>
     </div>

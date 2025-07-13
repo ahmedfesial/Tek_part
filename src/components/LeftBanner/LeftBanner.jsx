@@ -2,7 +2,7 @@ import './LeftBanner.css/'
 import { IoNotificationsOutline } from "react-icons/io5";
 import { DayPicker } from 'react-day-picker';
 import 'react-day-picker/dist/style.css';
-import ProfilePhoto from '../../assets/photos/UserPhoto.jpg'
+import ProfilePhoto from '../../assets/photos/Profile.jpg'
 import { ar } from "date-fns/locale";
 import { useState } from "react";
 // react-day-picker
@@ -16,11 +16,11 @@ const LeftBanner = () => {
       <div className="user pt-4">
         <div className="userData flex justify-between items-center">
           <IoNotificationsOutline className="text-yellow-400 w-6 h-6" />
-          <div className="content text-right mr-2">
-            <h3 className="font-bold" dir="rtl">
-              م/ ريم
+          <div className="content mr-2">
+            <h3 className="font-bold">
+              Ahmed Faisal
             </h3>
-            <p className="text-sm text-gray-950">UI / UX Designer</p>
+            <p className="text-sm text-gray-950">Front-End Developer</p>
           </div>
           <div className="avatar">
             <img src={ProfilePhoto} alt="user img"
