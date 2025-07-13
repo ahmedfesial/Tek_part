@@ -17,6 +17,7 @@ export default function TitlesPage() {
       "/DailyTasks": "Tasks",
       "/Profile": "Profile",
       "/Settings": "Settings",
+      "/Login" : "Login",
     };
 
     const pageTitle = pageTitles[path];
