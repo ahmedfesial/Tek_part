@@ -7,7 +7,7 @@ import TitlesPage from '../TiltesPage/TitlesPage'
 export default function Layout() {
   return <>
 
-  <div className="grid grid-cols-[379px_1fr_131px]">
+  <div className="grid grid-cols-[379px_1fr_5px] md:grid-cols-[379px_1fr_131px]">
     <LeftBanner/>
     <Outlet />
     <TitlesPage/>
